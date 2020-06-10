@@ -54,3 +54,8 @@ alert(found);
 
 
 // find index
+const objects2 = [{ id: 'a'}, { id: 'b'}, { id: 'c'}];
+const foundIndex = objects2.findIndex(function (item) {
+    return item.id === 'b';
+});
+alert(foundIndex);

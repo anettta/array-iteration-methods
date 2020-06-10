@@ -38,9 +38,15 @@ alert(hasNegativeNumbers);
 
 
 // every
+const allPositiveNumbers = [1,2,3].every(function (item) {
+    return item > 0;
+});
+alert(allPositiveNumbers);
 
 
 
 // find
 
 
+
+// find index

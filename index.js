@@ -31,7 +31,10 @@ alert(sum);
 
 
 // some
-
+const hasNegativeNumbers = [1,2,3,-1,4].some(function (item) {
+    return item < 0;
+});
+alert(hasNegativeNumbers);
 
 
 // every

@@ -46,7 +46,11 @@ alert(allPositiveNumbers);
 
 
 // find
-
+const objects =[{id: 'a'}, {id: 'b'}, {id: 'c'}]; // key value pairs
+const found = objects.find(function (item) {
+    return item.id === 'b';
+});
+alert(found);
 
 
 // find index
